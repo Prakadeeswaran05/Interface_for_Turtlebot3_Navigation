@@ -1,0 +1,5 @@
+
+<launch>
+  <node name="navigate_goal" pkg="turtlebot3_scripts" type="navigate_goal.py" output="screen"/>
+  <node name="cancel_goal" pkg="turtlebot3_scripts" type="cancel_goal.py" output="screen"/>
+</launch>
